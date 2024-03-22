@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: 150px;
+}
+
+
+.texto {
+    font-size: 200px;
+    color:#11ddbf ;
+    animation: julian 0.5s linear infinite;
+}
+
+@keyframes julian  {
+    0%,100%{ text-shadow:0 0 30px red; }
+  25%{ text-shadow:0 0 30px orange; }
+  50%{ text-shadow:0 0 30px forestgreen; }
+  75%{ text-shadow:0 0 30px cyan; }
+}
+
